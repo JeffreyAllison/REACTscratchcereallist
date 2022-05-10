@@ -1,3 +1,7 @@
+body {
+  background-image: url(./cereal.jpeg);
+}
+
 .App {
   text-align: center;
 }
