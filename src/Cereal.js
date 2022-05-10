@@ -8,14 +8,7 @@ export default function Cereal({ cereal }) {
         <h3>Name: {cereal.name}</h3>
         <p>Cups of cereal per serving: {cereal.cups}</p>
         <p>Calories per serving: {cereal.calories}</p>
-        <p>grams per serving...</p>
-        <p>Sugar: {cereal.sugar}</p>
-        <p>Protein: {cereal.protein}</p>
-        <p>Fat: {cereal.fat}</p>
-        <p>Sodium: {cereal.sodium}</p>
-        <p>Fiber: {cereal.fiber}</p>
-        <p>Carbohydrates: {cereal.carbo}</p>
-        <p>Potassium: {cereal.potass}</p>
+        <p>Click to see additional nutritional details</p>
       </Link>
     </div>
   );
