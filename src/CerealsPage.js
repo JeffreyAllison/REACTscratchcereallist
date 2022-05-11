@@ -5,7 +5,7 @@ import CerealsList from './CerealsList';
 
 function App() {
   const [cereals, setCereals] = useState([]);
-  const perPage = 10;
+  const perPage = 9;
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
@@ -23,14 +23,14 @@ function App() {
   return (
     <>
       <h2 className="header">
-        Page {currentPage} / of the <i>ultimate</i> box Cereal list
+        Page {currentPage} / 9 of the <i>ultimate</i> box Cereal list
       </h2>
       <div className="buttons">
         <button disabled={currentPage <= 1} onClick={() => setCurrentPage(currentPage - 1)}>
           Previous Page
         </button>
         {/* on click, this button should increment the page in state  */}
-        <button disabled={currentPage >= 8} onClick={() => setCurrentPage(currentPage + 1)}>
+        <button disabled={currentPage >= 9} onClick={() => setCurrentPage(currentPage + 1)}>
           Next Page
         </button>
       </div>
