@@ -30,13 +30,13 @@ export default function CerealDetail() {
             </h3>
             <p>Cups per serving: {cereal.cups}</p>
             <p>Calories per serving: {cereal.calories}</p>
-            <p>Grams of Sugar per serving: {cereal.sugars}</p>
-            <p>Grams of Protein per serving: {cereal.protein}</p>
-            <p>Grams of Fat per serving: {cereal.fat}</p>
-            <p>Grams of Sodium per serving: {cereal.sodium}</p>
-            <p>Grams of Fiber per serving: {cereal.fiber}</p>
-            <p>Grams of Carbohydrates per serving: {cereal.carbo}</p>
-            <p>Grams of Potassium per serving: {cereal.potass}</p>
+            <p>grams/Sugar per serving: {cereal.sugars}</p>
+            <p>grams/Protein per serving: {cereal.protein}</p>
+            <p>grams/Fat per serving: {cereal.fat}</p>
+            <p>grams/Sodium per serving: {cereal.sodium}</p>
+            <p>grams/Fiber per serving: {cereal.fiber}</p>
+            <p>grams/Carbohydrates per serving: {cereal.carbo}</p>
+            <p>grams/Potassium per serving: {cereal.potass}</p>
             <p>Total Vitamins: {cereal.vitamins}</p>
           </div>
         </div>
